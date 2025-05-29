@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Raptor Tech Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="phone_web.html">Phones</a></li>
+                <li><a href="headphones.html">Headphones</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+				<button id="nav-toggle">☰</button>
+				
+
+            </ul>
+        </nav>
+        <a id="home_button" href="index.html">
+            <img src="raptor_tech_shop_logo.png" alt="Raptor Tech Shop Logo" width="50">
+        </a>
+        <a id="cart_button" href="cart.html">
+            <img src="tech_shop_cart_icon.png" alt="Shopping Cart Icon" width="50">
+        </a>
+    </header>
+
+    <main class="contact-page">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+</body>
+</html>

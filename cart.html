@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart - Raptor Tech Shop</title>
+  <link rel="stylesheet" href="style.css">
+	<script src="java.js"></script>
+</head>
+<body>
+  <header>
+        <nav>
+            <ul>
+                <li><a href="phone_web.html">Phones</a></li>
+                <li><a href="headphones.html">Headphones</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+				<button id="nav-toggle">☰</button>
+				<h1>Your Cart</h1>
+				
+
+            </ul>
+        </nav>
+        <a id="home_button" href="index.html">
+            <img src="raptor_tech_shop_logo.png" alt="Raptor Tech Shop Logo" width="50">
+        </a>
+        <a id="cart_button" href="cart.html">
+            <img src="tech_shop_cart_icon.png" alt="Shopping Cart Icon" width="50">
+        </a>
+    </header>
+
+  <main>
+    <section id="cart-items"></section>
+
+    <div class="cart-summary">
+      <input type="text" id="coupon-code" placeholder="Enter coupon code">
+      <button id="cuppon_button" class="product_buttons" type="submit">Apply Cuppon</button>
+      <p id="discount-msg"></p>
+
+      <p>Subtotal: $<span id="subtotal">0.00</span></p>
+      <p>Discount: -$<span id="discount">0.00</span></p>
+      <p>Total: $<span id="total">0.00</span></p>
+
+    <a href="checkout.html"> <button id="cart_checkout" class="product_buttons" type="submit">Proceed to checkout</button> </a>
+    </div>
+  </main>
+
+  <script src="java.js"></script>
+</body>
+</html>

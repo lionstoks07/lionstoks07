@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raptor Tech Shop</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="java.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="phone_web.html">Phones</a></li>
+                <li><a href="headphones.html">Headphones</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+				<button id="nav-toggle">☰</button>
+				
+
+            </ul>
+        </nav>
+        <a id="home_button" href="index.html">
+            <img src="raptor_tech_shop_logo.png" alt="Raptor Tech Shop Logo" width="50">
+        </a>
+        <a id="cart_button" href="cart.html">
+            <img src="tech_shop_cart_icon.png" alt="Shopping Cart Icon" width="50">
+        </a>
+    </header>
+
+    <main>
+        <section id="phones" class="product">
+            <img id="home_phone" src="1.png" alt="Meorange1 Phone" width="350">
+			<div class="info">Best budget device by who?! Come see quickly!</div>
+            <form action="meorange1.html">
+                <button class="product_buttons" type="submit">Order</button>
+            </form>
+            
+        </section>
+
+        <section id="laptops" class="product">
+            <img id="home_laptop" src="2.png" alt="Orange Book Laptop" width="350">
+            <div class="info">Intel Core i5, 8GB RAM, and 256GB SSD</div>
+            <form action="laptop_order.html">
+                <button class="product_buttons" type="submit">Order</button>
+            </form>
+        </section>
+
+        <section id="headphones" class="product">
+            <img id="home_headphones" src="3.png" alt="Hits1 Headphones" width="350">
+            <div class="info">High-quality wireless headphones with deep bass</div>
+            <form action="headphones_order.html">
+                <button class="product_buttons" type="submit">Order</button>
+            </form>
+        </section>
+
+        <section id="speakers" class="product">
+            <img id="home-speakers" src="4.png" alt="DBT Speaker" width="350">
+            <div class="info">Who told you don't buy these?</div>
+            <form action="speakers_order.html">
+                <button class="product_buttons" type="submit">Order</button>
+            </form>
+        </section>
+		
+		<section class="more-links">
+            <h2>More From Raptor Tech</h2>
+            <ul>
+                <li><a href="phone_web.html">Explore More Phones</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </section>
+		
+		<!--<section class="credits"><div class="credit_div"></div></section>-->
+		
+    </main>
+</body>
+</html>
